@@ -132,6 +132,9 @@ int main() {
 
     // Comparando atributos das cartas
 
+    printf("Vamos aos resultados do Jogo\n \n \n \n");
+    printf("TAMBORES TOCANDO \n \n \n \n");
+
     // População
     if (populacao > populacao2) {
       printf("População: %s ganhou \n", cidade);
@@ -166,10 +169,10 @@ int main() {
 
       // Densidade
     if (densidadepop > densidadepop2) {
-      printf("Densidade: %s ganhou \n", cidade);
+      printf("Densidade: %s ganhou \n", cidade2);
     }
     else {
-      printf("Densidade: %s Ganhou \n", cidade2);
+      printf("Densidade: %s Ganhou \n", cidade);
     }
 
     // PIB Per Capita
