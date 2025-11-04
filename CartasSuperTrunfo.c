@@ -132,6 +132,58 @@ int main() {
 
     // Comparando atributos das cartas
 
+    // População
+    if (populacao > populacao2) {
+      printf("População: %s ganhou \n", cidade);
+    }
+    else {
+      printf("População:  %s Ganhou \n", cidade2);
+    }
+
+      // Área
+    if (area > area2) {
+      printf("Área: %s ganhou \n", cidade);
+    }
+    else {
+      printf("Área: %s Ganhou \n", cidade2);
+    }
+
+      // PIB
+    if (pib > pib2) {
+      printf("PIB: %s ganhou \n", cidade);
+    }
+    else {
+      printf("PIB: %s Ganhou \n", cidade2);
+    }
+
+      // Pontos Turísticos
+    if (pontosturisticos > pontosturisticos2) {
+      printf("Pontos Turísticos: %s ganhou \n", cidade);
+    }
+    else {
+      printf("Pontos %s Ganhou \n", cidade2);
+    }
+
+      // Densidade
+    if (densidadepop > densidadepop2) {
+      printf("Densidade: %s ganhou \n", cidade);
+    }
+    else {
+      printf("Densidade: %s Ganhou \n", cidade2);
+    }
+
+    // PIB Per Capita
+    if (pibpercapita > pibpercapita2) {
+      printf("PIB Per Capita: %s ganhou \n", cidade);
+    }
+    else {
+      printf("PIB Per Capita: %s Ganhou \n", cidade2);
+    }
+    
+      /* code */
+    
+    
+
     
 
 return 0;
